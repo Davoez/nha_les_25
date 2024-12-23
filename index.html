@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Les 25</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--jQuery & Javascript-->
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+       
+       <script type="text/javascript">
+        $(document).ready(function(){
+            $("#buttonhide").click(function(){
+            $("#text1").hide();
+            });
+            $("#buttonshow").click(function(){
+            $("#text2").hide(); 
+            });   
+            $("#buttondrie").click(function(){
+            $("#text2").show();
+            $("#text1").show();
+            });
+            
+            
+         });
+         
+      </script>
+
+      <!--CSS-->
+      <link rel="stylesheet" type="text/css" href="style.css">
+
+     
+      
+
+    </head>
+    <body>
+       <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startpagina</a></li>
+                <li><a href="#contact" onclick="window.alert('Website is nog onder constructie, kom terug in 6 maanden s.v.p.')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+        
+        <main>
+            <hr>
+            <p id="text1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a fermentum magna, in suscipit lacus. Quisque sed erat non augue rutrum ullamcorper. Phasellus quis ornare neque. Proin faucibus, quam id efficitur semper, mauris nisl finibus metus, eget suscipit nibh libero et risus.<br>
+                 Nullam ut orci quis neque tristique aliquam a sit amet purus. Sed non sapien molestie, mattis magna quis, efficitur tellus.
+                Nullam sed dolor euismod eros commodo tempus. Vestibulum finibus magna eget varius semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque quis malesuada ipsum.
+            </p> <br> <hr>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec ipsum in justo maximus dictum. Phasellus tristique purus a bibendum volutpat. Quisque ullamcorper turpis sollicitudin pellentesque facilisis. Vestibulum vel volutpat ex, eu dignissim erat.
+                 Mauris pellentesque et ligula non congue.<br> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed turpis sapien, tristique quis euismod non, gravida at turpis. Aenean malesuada dignissim arcu vel ultrices. Donec quis tristique erat.
+                 Cras tincidunt, est in lacinia sodales, eros turpis dictum ipsum, sit amet imperdiet enim enim sit amet purus.<br> Vestibulum nec lacus tincidunt, hendrerit ante vel, vestibulum metus. Donec lobortis leo id placerat interdum.
+            </p><br><hr>
+
+            <p id="text2" >
+                Duis id felis non orci tincidunt eleifend non ut nunc. Vivamus odio magna, iaculis vitae nulla in, tempor finibus lectus. Sed vitae tincidunt enim. Integer faucibus pulvinar ipsum vitae vestibulum. Nulla et porttitor libero.<br>
+                 Sed id nibh est. Proin eu ante id eros tincidunt condimentum. Proin commodo odio id dui cursus viverra sit amet nec mauris. Donec sit amet urna viverra, dignissim nisl vitae, semper velit. <br>
+                Praesent suscipit quam lorem, id consectetur orci posuere ac. Vestibulum rhoncus, massa vel molestie molestie, nibh tortor elementum ante, suscipit pretium magna est in velit.
+            </p><br>
+
+            <button id="buttonhide">Klik hier</button>
+            <button id="buttonshow">Klik hier</button>
+            <button id="buttondrie">Click here</button>
+
+        </main>
+        <footer>© Les 25 NHA 2024</footer>
+        
+            <noscript>
+            Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+            </noscript>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+li{
+    display: inline;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:cadetblue;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+  background-color: red; 
+  height: 1px;
+  border: 0;
+}
+
+header{
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+}
+
+footer{
+    background-color: black;
+    margin-top: auto;
+    color: aliceblue;
+    height: 50px;
+}
+
+a{
+    color: dimgray;
+}
+
+a:hover{
+    color:crimson;
+   
+}
+
+button{
+    color: darkkhaki;
+    background-color: midnightblue;
+  
+}
+
+button:active{
+    color: red;
+    background-color: aqua;
+}
